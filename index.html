@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <link rel="stylesheet" href="./assets/CSS/responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!---------- LEFT --------->
+      <div class="search__container">
+        <div class="search__container-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="search__container-input-search">
+          <input class="input-text" type="text" placeholder="Search" />
+        </div>
+      </div>
+      <div class="conversation__list">
+        <ul class="conversation__list-user">
+          <li class="conversation__list-message--info">
+            <img
+              src="../ChatApp/assets/img/User_avi/DartVader.png"
+              alt=""
+              class="user-img"
+            />
+            <div class="conversation__list-message--box">
+              <span class="conversation__user-name">John Lennon</span>
+              <span class="conversation__user-time">7:15 PM</span>
+              <span class="user__message-name">Lennon: I'll trust you</span>
+              <i class="conversation__pin fas fa-thumbtack"></i>
+            </div>
+          </li>
+          <div class="conversation__list-message--time"></div>
+        </ul>
+
+        <ul class="conversation__list-user">
+          <li class="conversation__list-message--info">
+            <img
+              src="../ChatApp/assets/img/User_avi/maria-bo-schatzis-stream-profilpicture.jpeg"
+              alt=""
+              class="user-img"
+            />
+            <div class="conversation__list-message--box">
+              <span class="conversation__user-name">George Harrison</span>
+              <span class="conversation__user-time">4:10 PM</span>
+              <span class="user__message-name">Darth: I'll trust you</span>
+              <i class="conversation__pin fas fa-thumbtack no__pin"></i>
+            </div>
+          </li>
+          <div class="conversation__list-message--time"></div>
+        </ul>
+
+        <ul class="conversation__list-user">
+          <li class="conversation__list-message--info">
+            <img
+              src="../ChatApp/assets/img/User_avi/maria-bo-schatzis-stream-profilpicture.jpeg"
+              alt=""
+              class="user-img"
+            />
+            <div class="conversation__list-message--box">
+              <span class="conversation__user-name">Paul McCartney</span>
+              <span class="conversation__user-time">4:10 PM</span>
+              <span class="user__message-name">Darth: I'll trust you</span>
+              <i class="conversation__pin fas fa-thumbtack no__pin"></i>
+            </div>
+          </li>
+          <div class="conversation__list-message--time"></div>
+        </ul>
+
+        <ul class="conversation__list-user">
+          <li class="conversation__list-message--info">
+            <img
+              src="../ChatApp/assets/img/User_avi/maria-bo-schatzis-stream-profilpicture.jpeg"
+              alt=""
+              class="user-img"
+            />
+            <div class="conversation__list-message--box">
+              <span class="conversation__user-name">Ringo Starr</span>
+              <span class="conversation__user-time">4:10 PM</span>
+              <span class="user__message-name"> Told you last Monday...</span>
+              <i class="conversation__pin fas fa-thumbtack no__pin"></i>
+            </div>
+          </li>
+          <div class="conversation__list-message--time"></div>
+        </ul>
+
+        <ul class="conversation__list-user">
+          <li class="conversation__list-message--info">
+            <img
+              src="../ChatApp/assets/img/User_avi/DartVader.png"
+              alt=""
+              class="user-img"
+            />
+            <div class="conversation__list-message--box">
+              <span class="conversation__user-name">John Cena</span>
+              <span class="conversation__user-time">7:15 PM</span>
+              <span class="user__message-name">Cena: I'll trust you</span>
+              <i class="conversation__pin fas fa-thumbtack"></i>
+            </div>
+          </li>
+          <div class="conversation__list-message--time"></div>
+        </ul>
+      </div>
+
+      <!-- ////////////////////////////////////////////////////////////////////// -->
+      <!-- ---------------------- RIGHT ------------------- -->
+      <div class="chat-title">
+        <div class="back-icon">
+          <i class="fas fa-arrow-circle-left"></i>
+        </div>
+        <div class="chat-title-user">
+          <img
+            src="assets/img/User_avi/DartVader.jpeg"
+            alt=""
+            class="user-img chat-title-user-img"
+          />
+          <div class="chat-title-user-box">
+            <span class="chat-title-user-name">John Lennon</span>
+            <span class="chat-title-user-status">online</span>
+          </div>
+
+          <img
+            src="assets/img/User_avi/DartVader.jpeg"
+            alt=""
+            class="user-img chat-title-user-img-mobile"
+          />
+        </div>
+        <div class="chat-title-icons">
+          <span class="chat-title-icons-search-box">
+            <i class="chat-title-icons-search fas fa-search"></i>
+          </span>
+
+          <span class="chat-title-icons-menu-box">
+            <i class="chat-tittle-icons-menu fas fa-ellipsis-v"></i>
+          </span>
+        </div>
+      </div>
+      <div class="chat-message__list">
+        <div class="chat-message-content-left">
+          <p class="chat-content">Hey there, you see George?</p>
+
+          <span class="chat-message-time-seen chat-message-time-seen--left"
+            >11:26 PM</span
+          >
+        </div>
+
+        <div class="chat-message-content-right flex-column">
+          <div class="chat-message-reply">
+            <h4>John Cena</h4>
+            <p>Hey there, you see George?</p>
+          </div>
+          <p class="chat-content">Whatsup? No, haven't seen him since Monday</p>
+
+          <div class="message-seen">
+            <span class="chat-message-icon-seen">
+              <i class="fas fa-check"></i>
+            </span>
+            <span class="chat-message-time-seen">11:28 PM</span>
+          </div>
+        </div>
+
+        <div class="chat-message-content-right">
+          <i class="chat-message-video fas fa-play-circle"></i>
+          <img src="./assets/img/audio-wave-32.png" alt="" class="wave-icon" />
+          <p class="chat-content">George said that to me last week</p>
+
+          <div class="message-seen">
+            <span class="chat-message-icon-seen">
+              <i class="fas fa-check"></i>
+            </span>
+            <span class="chat-message-time-seen">11:29 PM</span>
+          </div>
+        </div>
+
+        <div class="chat-message-content-left">
+          <p class="chat-content">I know mate, he also told me that</p>
+
+          <span class="chat-message-time-seen chat-message-time-seen--left"
+            >11:32 PM</span
+          >
+        </div>
+
+        <div class="chat-message-content-left">
+          <p>Hey take a look at this picture</p>
+          <div class="chat-message-img-container">
+            <img
+              src="./assets/img/the-beatles-rehearse-for-that-nights-royal-variety-performance-at-the-prince-of-wales-theatre-4th-november-1963-the-queen-mother-will-attend-photo-by-central-press_hulton-archive_getty-images.jpeg"
+              alt=""
+              class="chat-message-img"
+            />
+          </div>
+        </div>
+
+        <div class="chat-message-content-right">
+          <p class="chat-content">Back to the time when music was enjoyable</p>
+
+          <span class="chat-message-time-seen chat-message-time-seen--right"
+            >11:35 PM</span
+          >
+        </div>
+      </div>
+
+      <div class="chat-form">
+        <div class="chat-form-clip-icon">
+          <i class="fas fa-paperclip"></i>
+        </div>
+
+        <div class="chat-form-input">
+          <input
+            class="chat-text"
+            type="text"
+            placeholder="Write a message..."
+          />
+        </div>
+
+        <div class="chat-form-icons">
+          <i class="chat-form-emoticon-icon far fa-grin-alt"></i>
+          <i class="chat-form-voice-icon fas fa-microphone"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

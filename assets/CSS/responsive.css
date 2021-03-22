@@ -1,0 +1,157 @@
+/* Mobile */
+@media (max-width: 739px) {
+  .container {
+    width: 100%;
+    margin: auto auto;
+    grid:
+      "chat-title" 4rem
+      " chat-message__list" 1fr
+      " chat-form" 4rem / 1fr;
+    border-radius: 0;
+  }
+
+  .search__container {
+    visibility: hidden;
+    display: none;
+  }
+
+  .conversation__list {
+    visibility: hidden;
+    display: none;
+  }
+
+  .chat-title {
+    display: flex;
+  }
+
+  .chat-title-user-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .chat-title .chat-title-user {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .chat-title-icons {
+    display: none;
+  }
+
+  .chat-title-user-name {
+  }
+
+  .chat-title-user-status {
+  }
+
+  .chat-title-user-img {
+  }
+
+  .chat-title-user-img-mobile {
+    display: inline-block;
+    justify-self: flex-end;
+    margin-right: 0.8rem;
+  }
+
+  .chat-title-icons {
+    display: none;
+  }
+
+  .back-icon {
+    display: inline-block;
+    font-size: 3.2rem;
+    align-self: center;
+    margin-left: 1rem;
+    color: var(--blue-color);
+  }
+
+  .chat-message__list {
+    width: 100%;
+  }
+
+  .chat-message-reply {
+    margin-left: -1rem;
+  }
+
+  .chat-form {
+    border-radius: 0;
+  }
+}
+
+/* Small res phones */
+@media (max-width: 321px) {
+  .chat-title-user-img {
+    margin-left: 12rem;
+  }
+  .chat-title-user-name {
+    margin-left: -3rem;
+  }
+  .chat-title-user-status {
+    margin-left: -1.5rem;
+  }
+
+  .chat-title {
+    border-radius: 0;
+    width: 100%;
+    display: flex;
+  }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .container,
+  .search__container,
+  .conversation__list {
+    border-radius: 0;
+  }
+
+  .chat-message-reply {
+    margin-left: -9rem;
+  }
+
+  .chat-title {
+    border-radius: 0;
+    width: 100%;
+    display: flex;
+  }
+
+  .chat-form {
+    border-radius: 0;
+  }
+}
+
+/* Big tablet and low res computer */
+@media (min-width: 1023px) {
+  .container,
+  .search__container,
+  .conversation__list {
+    border-radius: 0;
+  }
+
+  .chat-message-reply {
+    margin-left: -9rem;
+  }
+  .chat-title {
+    border-radius: 0;
+    width: 100%;
+    display: flex;
+  }
+
+  .chat-form {
+    border-radius: 0;
+  }
+}
+
+/* Big computer screen */
+@media (min-width: 1500px) {
+  .chat-message-reply {
+    margin-left: -9rem;
+  }
+  .chat-message {
+    margin-left: -5rem;
+  }
+}
